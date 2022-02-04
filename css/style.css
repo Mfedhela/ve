@@ -1,0 +1,82 @@
+@media screen and (min-width: 768px) {
+  .intro {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)),
+      url("../pics/Ferrari250gt-4-pc.jpg");
+  }
+  .navbar-brand {
+    width: 10%;
+  }
+  .container-fluid {
+    margin-inline: 10rem;
+    display: flex;
+    justify-content: space-between;
+  }
+  .hero {
+    width: 40%;
+    padding: 4rem;
+  }
+  .slot {
+    min-height: 40em;
+    padding: 2.5rem;
+    justify-content: space-between;
+  }
+
+  .img-gallery {
+    width: 60%;
+  }
+
+  .content-area {
+    width: 30%;
+    padding: 5rem 0;
+    display: grid;
+    place-items: center;
+  }
+
+  .slide {
+    overflow: hidden;
+  }
+  .reviews {
+    width: 50%;
+  }
+  .social-links {
+    width: 50%;
+    margin: 1rem auto;
+    text-align: center;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .intro {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)),
+      url("../pics/Ferrari250gt-4.JPG");
+  }
+  .navbar-brand {
+    width: 20%;
+  }
+  .hero {
+    width: 80%;
+    padding: 1.5rem;
+  }
+  .banner {
+    width: 20%;
+  }
+  .slot {
+    min-height: 100vh;
+    flex-direction: column;
+  }
+  .content-area {
+    height: 35em;
+    padding: 3rem 0;
+  }
+  .img-gallery h2 {
+    padding: 3rem 0;
+  }
+
+  .co-info div {
+    width: 70%;
+    margin: auto;
+  }
+  .reviews {
+    width: 85%;
+  }
+}
